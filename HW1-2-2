@@ -1,0 +1,23 @@
+mint-briggsi@mintbriggsi-HP-Pavilion-dv6-Notebook-PC ~/bin $ ps aux --sort -rss | head
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+mint-br+  3244  5.2  7.8 1298472 476880 ?      Sl   Sep08   5:41 /usr/lib/firefox/firefox
+root      1473  1.4  0.8 360096 53180 tty8     Ssl+ Sep08   2:53 /usr/bin/X :0 -audit 0 -auth /var/lib/mdm/:0.Xauth -nolisten tcp vt8
+mint-br+  2848  0.0  0.6 968716 36704 ?        Sl   Sep08   0:02 evince /home/mint-briggsi/Downloads/me701_homework1_fa14.pdf
+mint-br+  2007  0.0  0.5 606056 34824 ?        Sl   Sep08   0:02 xfdesktop --display :0.0 --sm-client-id 28d3c885b-3c5e-4e20-a9f9-ea22d63b4147
+mint-br+  2073  0.0  0.5 561120 33192 ?        Sl   Sep08   0:00 python /usr/lib/linuxmint/mintUpdate/mintUpdate.py
+mint-br+  2102  0.0  0.5 618708 31964 ?        Sl   Sep08   0:00 /usr/bin/python /usr/bin/blueman-applet
+mint-br+  2004  0.0  0.4 1165132 28244 ?       Sl   Sep08   0:04 Thunar --sm-client-id 2c80c5dab-4e0c-4f9e-a516-438b38c085c0 --daemon
+mint-br+  2054  0.0  0.3 677156 18972 ?        Sl   Sep08   0:03 nm-applet
+mint-br+  2865  0.0  0.2 532368 18068 ?        Sl   Sep08   0:05 xfce4-terminal
+mint-briggsi@mintbriggsi-HP-Pavilion-dv6-Notebook-PC ~/bin $ ps aux --sort -%cpu | head
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+mint-br+  3244  5.2  7.9 1298536 480048 ?      Sl   Sep08   5:42 /usr/lib/firefox/firefox
+root      1473  1.4  0.9 362852 55832 tty8     Ssl+ Sep08   2:54 /usr/bin/X :0 -audit 0 -auth /var/lib/mdm/:0.Xauth -nolisten tcp vt8
+root       443  0.2  0.0      0     0 ?        S    Sep08   0:34 [irq/52-iwlwifi]
+mint-br+  2002  0.1  0.2 164476 15868 ?        S    Sep08   0:22 xfwm4 --display :0.0 --sm-client-id 260a9f9fb-f87b-4282-bcb7-fa24d3ae3321
+root         1  0.0  0.0  33896  3292 ?        Ss   Sep08   0:01 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    Sep08   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    Sep08   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Sep08   0:00 [kworker/0:0H]
+root         7  0.0  0.0      0     0 ?        S    Sep08   0:01 [rcu_sched]
+
